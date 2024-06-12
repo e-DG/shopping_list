@@ -24,9 +24,15 @@
         const input = document.querySelector("input");
         const ul = document.querySelector("ul");
         const button = document.querySelector("button");
+
         button.addEventListener("click", addElement());
+
         function addElement (){
             const currentValue = input.value;
+            input.textContent = "";
+            const li = document.createElement("li");
+            const span = document.createElement("span");
+            const button = document.createElement("button");
         }
     </script>
   </body>
